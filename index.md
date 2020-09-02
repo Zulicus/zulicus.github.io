@@ -1,37 +1,67 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Zulicus/zulicus.github.oi/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Zulicus/zulicus.github.oi/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<style>
+	body {background-color:#00bfff;}
+	h1 {color:#ffff00;text-align:center;}
+</style>
+<body>
+    <h1 id="Top">
+        Robin Geschwindt Stenford
+    </h1><hr>
+    <h3>Introduction</h3>
+    <p>
+        Hello!
+        <br>
+        My name is Robin (Zulicus on discord) and this is my first time programming HTML. (After watching a <a href="https://youtu.be/mU6anWqZJcc" target="_blank">YouTube video</a> to get me started ofc)
+    </p><hr>
+	<h2>Table of content</h2>
+	<ul style="border:2px solid black;padding:15px;">
+		<li><a href="#About">About me</a></li>
+		<li><a href="#Likes">Things (other than computers) I like</a></li>
+	</ul><hr>	
+    <h3 id="About">About me:</h3>
+    <p>
+        I am 24, I live with my cat Iza in Anderslöv. Prior to this I've worked for a few years as a libraryassistant in Trelleborg.
+        <br><br>
+        I've always had a passion for computers and, after a failed atempt at becomeing an engineer, I learned that I really love programming!
+        <br>
+        I really wish I could've been here for the first week, but for some reason I didn't see this course when I applied for this therm's YH.
+    </p>
+	<a href="#Top" style="background-color:#ffff00;padding:10px 15px;text-align:center;text-decoration:none;display:inline-block;">Back to the top</a>
+	<hr>
+    <h4 id="Likes">Things (other than computers) I like:</h4><ul>
+		<li>Videogames (duh, who doesn't these days) 
+			<ol>
+				<li>Elite Dangerous</li>
+					<a href="https://www.elitedangerous.com/" target="_blank">
+						<img src="images/ED.jpg" alt="Elite Dangerous image not found">
+					</a>
+				<li>World of Warcraft</li>
+					<a href="https://worldofwarcraft.com/en-us/" target="_blank">
+						<img src="Images/wow.jpg" alt="World of Warcraft image not found">
+					</a>                
+				<li>Portal 1 & 2</li>
+					<a href="https://store.steampowered.com/app/400/Portal/?l=swedish" target="_blank">
+						<img src="Images/Portal.jpg" alt="Portal image not found">
+					</a>
+				<li>Borderlands 1, 2 & 3</li>
+					<a href="https://borderlands.com/en-US/" target="_blank">
+						<img src="Images/Borderlands.jpg" alt="Borderlands image not found">
+					</a>
+			</ol>
+		</li>
+		<li>Nature (Both the theoretical and practical)</li>
+		<li>Magnets</li>
+		<li>Playing boardgames with friends</li>
+		<li>Roleplay</li>
+    </ul>
+    <p>And a whole bunch of other neardy stuff.</p>
+    <br><hr>
+    <a href="#Top" style="background-color:#ffff00;padding:10px 15px;text-align:center;text-decoration:none;display:inline-block;">Back to the top</a>
+</body>
+</html>
