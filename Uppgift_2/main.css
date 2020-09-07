@@ -86,22 +86,22 @@ h2{
 }
 
 .pimg1{
-	background-image:url("images/meny2.jpg");
+	background-image:url("Images/meny2.jpg");
 	min-height:100%;
 }
 
 .pimg2{
-	background-image:url("images/hamburgaremeal.jpg");
+	background-image:url("Images/hamburgaremeal.jpg");
 	min-height:400px;
 }
 
 .pimg3{
-	background-image:url("images/familjepizza.jpg");
+	background-image:url("Images/familjepizza.jpg");
 	min-height:400px;
 }
 
 .pimg4{
-	background-image:url("images/corona.jpg");
+	background-image:url("Images/corona.jpg");
 	min-height:100%;
 }
 
