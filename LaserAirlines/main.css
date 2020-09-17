@@ -1,0 +1,18 @@
+.fix{
+		margin-top: 0px!important;
+		margin-bottom: 0px!important;
+	}
+
+@media (max-width:407px){
+	.loglarge{
+		display:none!important;
+	}
+}
+
+
+@media (min-width:407px){
+	.logsmall{
+		display:none!important;
+	}
+}
+

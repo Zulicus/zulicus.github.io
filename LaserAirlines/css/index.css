@@ -1,0 +1,21 @@
+
+
+.bg-dark {
+	opacity: 0.8;
+}
+.box1{
+	background-color:#b5ff75;
+	opacity: 0.6;
+	border-radius: 25px;
+}
+@media (max-width: 700px;) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+@media (max-width: 768px) {
+	.w-50{
+		    width: 100%!important;
+	}
+}
