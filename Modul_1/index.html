@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //Uppgift 1
+      console.log("uppgift 1");
+      var global = "Yes",
+        eternal = 8,
+        high = true;
+      const pi = 3.14,
+        e = 2.71,
+        g = 9.82;
+      let everybody = "know",
+        come = "on come",
+        on = "come on";
+      //Uppgift 2
+      console.log("uppgift 2");
+      let bool = true,
+        nbr = 1,
+        text = "hello",
+        obj = {},
+        arr = [];
+      //Uppgift 3
+      console.log("uppgift 3");
+      function summ(x, y) {
+        return x + y;
+      }
+      let sum = summ(10, 30);
+      console.log("Summan blir: " + sum);
+      //Uppgift 4
+      console.log("uppgift 4");
+      console.log(Date());
+      //Uppgift 5
+      console.log("uppgift 5");
+      let game = {
+        name: "minecraft",
+        age: "E for everyone",
+        mode: "muliplayer/singerplayer",
+        getGame: function () {
+          console.log(
+            "Name of the game: " +
+              this.name +
+              ". avaiable in " +
+              this.mode +
+              ". Rated: " +
+              this.age
+          );
+        },
+      };
+      game.getGame();
+      //uppgift 6
+      console.log("uppgift 6");
+      let newArray = [4, 8, 15, 16, 23, 42];
+      console.log(newArray);
+      console.log(newArray[newArray.length - 1]);
+      let filteredArray = newArray.filter(lessThan20);
+      function lessThan20(x) {
+        if (x < 20) {
+          return x;
+        }
+      }
+      console.log(filteredArray);
+      filteredArray.map(two);
+      function two(x) {
+        return x + x;
+      }
+      filteredArray.map(two).forEach((Element) => console.log(Element));
+      //Uppgift 7
+      console.log("uppgift 7");
+      let i = 0;
+      while (i < 6) {
+        if (i == 0) {
+          console.log("loop 1");
+        } else if (i == 1) {
+          console.log("loop 2");
+        } else if (i == 2) {
+          console.log("loop 3");
+        } else {
+          console.log("almost done");
+        }
+        i++;
+      }
+      console.log("done");
+    </script>
+  </body>
+</html>
