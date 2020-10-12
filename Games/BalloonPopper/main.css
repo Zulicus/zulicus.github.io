@@ -49,6 +49,8 @@ body {
   display: inline-block;
   text-align: center;
   line-height: 67px;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 
 .pop:nth-child(4n) {
@@ -74,4 +76,27 @@ button{
   margin: 10px;
   background-color: rgb(115, 16, 128);
   color: yellow;
+}
+
+
+@media(max-width: 600px){
+  .balloon {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+
+  }
+  .pop {
+    max-width: 50x;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    line-height: 35px;
+    font-size:x-small;
+    font-weight: normal;
+  }
+ p{
+   width: 50px;
+   height: 50px;
+ }
 }
