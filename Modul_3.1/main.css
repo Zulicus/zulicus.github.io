@@ -1,0 +1,78 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+}
+
+.head {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.balloons {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(6, 120px [col-start]);
+}
+
+.balloon {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  font-size: 0;
+}
+
+.pop {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.balloon:nth-child(4n) {
+  background-color: black;
+}
+
+.balloon:nth-child(4n - 1) {
+  background-color: yellow;
+}
+
+.balloon:nth-child(4n - 2) {
+  background-color: blue;
+}
+
+.balloon:nth-child(4n - 3) {
+  background-color: red;
+}
+.pop:nth-child(4n) {
+  color: black;
+  background-color: lightgray;
+}
+
+.pop:nth-child(4n - 1) {
+  color: yellow;
+  background-color: lightgray;
+}
+
+.pop:nth-child(4n - 2) {
+  color: blue;
+  background-color: lightgray;
+}
+
+.pop:nth-child(4n - 3) {
+  color: red;
+  background-color: lightgray;
+}
+
+.won {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
