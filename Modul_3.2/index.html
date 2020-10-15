@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animals</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="top">
+      <form class="chooseAnimal">
+        <label for="animals" class="description">
+          Get a random animal pic of your choice:
+        </label>
+        <select name="animals" class="dropdown">
+          <option value="Select">Select animal</option>
+          <option value="Cat">Random Cat</option>
+          <option value="Dog">Random Dog</option>
+          <option value="Fox">Random Fox</option>
+        </select>
+        <input type="submit" value="Show Animal" class="show" />
+      </form>
+    </div>
+    <div class="bottom">
+      <div class="picture">
+        <div class="image-box">
+          <img
+            src="./images/placeholder.jpg"
+            alt="404 Image placeholder not found"
+          />
+        </div>
+      </div>
+      <h1 class="save">Saved Pictures:</h1>
+      <div class="favorites-box"></div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

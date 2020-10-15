@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: lightgray;
+}
+.top {
+  margin-top: 10px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+form {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  margin: 0 50px 0 50px;
+}
+.description {
+  width: 100%;
+  height: 30px;
+  font-size: x-large;
+}
+.dropdown {
+  width: 100%;
+  height: 30px;
+  font-size: large;
+}
+.show {
+  width: 100%;
+  height: 30px;
+  font-size: x-large;
+}
+.picture {
+  margin-top: 100px;
+  justify-content: center;
+}
+.image-box {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  width: 75%;
+  max-height: 100%;
+}
+.favorites-box {
+  border: solid white;
+  padding: 10px;
+}
+.favorite {
+  width: 33.3%;
+  max-height: 100%;
+}
+.save {
+  text-align: center;
+}
