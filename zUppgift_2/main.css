@@ -1,0 +1,278 @@
+body, html{
+	background-color:black;
+	height:100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight:400;
+	line-height:1.8em;
+	color:#fff;
+}
+.box{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 600px){
+	.phone{
+		display:none;
+	}
+}
+
+@media only screen and (min-width: 600px){
+	.bside{
+		max-width:75%;
+		padding:10px;
+	}
+}
+
+@media only screen and (max-width: 600px){
+	.bside{
+		max-width:100%;
+		padding:5px;
+	}
+}
+
+aside {
+	color:black;
+	width: 25%;
+	padding-left: 15px;
+	padding-right:10px;
+	margin-left: 15px;
+	float: right;
+	font-style: italic;
+	background-color: lightgray;
+
+	top: 83px;
+	bottom: 0;
+	right: 0px;
+	overflow:auto;
+}
+
+
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+  position:relative;
+  opacity:0.70;
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+}
+
+
+.columb{
+	max-height: 1200px;
+	float: left;
+    position: relative;
+    margin-right: 20px;
+}
+
+div.sticky {
+	z-index:10;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	padding: 5px;
+}
+
+h2{
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.pimg1{
+	background-image:url("Images/meny2.jpg");
+	min-height:100%;
+}
+
+.pimg2{
+	background-image:url("Images/hamburgaremeal.jpg");
+	min-height:400px;
+}
+
+.pimg3{
+	background-image:url("Images/familjepizza.jpg");
+	min-height:400px;
+}
+
+.pimg4{
+	background-image:url("Images/corona.jpg");
+	min-height:100%;
+}
+
+.nav{
+	display:block;
+	padding: 10px;
+	background-color:#000;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:#333333;
+  color: white;
+}
+
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #000; 
+  color: white; 
+  border: 2px solid #ff0000;
+}
+
+.button1:hover {
+  background:url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/300px-Flag_of_the_United_States.svg.png");
+  color: red;
+}
+
+.button2 {
+  color: white; 
+ 
+}
+.button2:hover {
+  color: gray;
+}
+
+@media only screen and (min-width: 600px){ 
+	ol {
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		-moz-column-count: 3;
+		-moz-column-gap: 30px;
+		-webkit-column-count: 3;
+		-webkit-column-gap: 30px;
+		column-count: 3;
+		column-gap: 30px;
+	}
+}
+
+@media only screen and (max-width: 600px){ 
+	ol {
+		margin-block-start: 0em;
+		margin-block-end: 0em;
+		-moz-column-count: 2;
+		-moz-column-gap: 30px;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 30px;
+		column-count: 2;
+		column-gap: 30px;
+		padding:5px;
+	}
+}
+
+.pizza {
+	display:inline;
+	color:#d79914;
+}
+.pizzav{
+	display:inline;
+	color:green;
+}
+
+.section{
+	
+	text-align:center;
+	padding:50px 80px;
+}
+
+.section-light{
+	background-color:#f4f4f4;
+	color:#666;
+}
+
+.section-dark{
+	background-color:#282e34;
+	color:#ddd;
+}
+
+.ptext{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#000;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform:uppercase;
+}
+
+.ptext .border{
+	background-color:#111;
+	color:#fff;
+	padding:20px;
+}
+
+.ptext .border.trans{
+	background-color:transparent;
+}
+
+@media(max-width:568px){
+	.pimg1, .pimg2, .pimg3{
+		background-attachment:scroll;
+	}
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+@media only screen and (max-width: 600px){
+	.slideshow-container {
+		max-width: 100%;
+		position: left;
+		margin:5px;
+	}
+}
+
+@media only screen and (min-width: 600px){
+	.slideshow-container {
+		max-width: 70%;
+		position: left;
+		margin:;
+	}
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1s;
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+.b{
+	background-color:black;
+}
