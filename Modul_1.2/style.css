@@ -1,0 +1,90 @@
+body {
+  background-color: aqua;
+}
+.start {
+  display: flex;
+  margin: auto;
+  border-radius: 50%;
+  width: 150px;
+  justify-content: center;
+  padding: 10px;
+  background-color: aquamarine;
+}
+.scoreContainer {
+  display: flex;
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.score {
+  color: blue;
+}
+.highscore {
+  color: red;
+}
+label {
+  color: black;
+}
+.gameBox {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+.game {
+  width: 50%;
+  height: 50%;
+  justify-content: center;
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+}
+.heart {
+  background-image: url("./Images/Heart.png");
+  border-radius: 50%;
+  background-color: lightsalmon;
+  width: 75px;
+  height: 75px;
+  border: 1px solid lightsalmon;
+}
+.star {
+  background-image: url("./Images/Star.png");
+  border-radius: 50%;
+  background-color: yellow;
+  width: 75px;
+  height: 75px;
+  border: 1px solid yellow;
+}
+.triangle {
+  background-image: url("./Images/Triangle.png");
+  border-radius: 50%;
+  background-color: lightgreen;
+  width: 75px;
+  height: 75px;
+  border: 1px solid lightgreen;
+}
+.diamond {
+  background-image: url("./Images/Diamond.png");
+  border-radius: 50%;
+  background-color: white;
+  width: 75px;
+  height: 75px;
+  border: 1px solid white;
+}
+.circle {
+  background-image: url("./Images/Circle.png");
+  border-radius: 50%;
+  background-color: lightpink;
+  width: 75px;
+  height: 75px;
+  border: 1px solid lightpink;
+}
+img {
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.gamePiece:hover {
+  border: 1px solid black;
+}
