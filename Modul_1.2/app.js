@@ -1,6 +1,7 @@
 //Global Costants
 const gameEL = document.querySelector(".game"),
   startButton = document.querySelector(".start"),
+  hardResetButton = document.querySelector(".reset"),
   highscoreEl = document.querySelector(".highscore"),
   lastScoreEl = document.querySelector(".previous"),
   scoreEl = document.querySelector(".score");
@@ -78,6 +79,12 @@ startButton.addEventListener("click", () => {
 
   //Starts the game
   gameStart();
+});
+
+//Functions as a Hard Reset Button
+hardResetButton.addEventListener("click", () => {
+  window.localStorage.clear();
+  location.reload();
 });
 
 //Function used to start, run and reset the gameboard

@@ -1,7 +1,8 @@
 body {
   background-color: aqua;
 }
-.start {
+.start,
+.reset {
   display: flex;
   margin: auto;
   border-radius: 50%;
@@ -9,6 +10,10 @@ body {
   justify-content: center;
   padding: 10px;
   background-color: aquamarine;
+}
+.reset {
+  background-color: red;
+  color: yellow;
 }
 .scoreContainer {
   display: flex;
