@@ -127,7 +127,10 @@ const panels = [
     });
     //Gives the reader the ability to jump to any valid page of the comic
     inputEl.addEventListener("keyup", (e) => {
-      if (e.keyCode === 13 || e.type == "click") {
+      //Checks for enter key
+      if (e.keyCode === 13) {
+        //Makes sure that the reader inputs a number
+        if (isNaN(inputEl.value)) return;
         currentPage = inputEl.value;
         const event = new CustomEvent("page-change", {
           detail: currentPage,
