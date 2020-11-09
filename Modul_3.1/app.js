@@ -91,7 +91,6 @@
       detail: connection.peer,
     });
     document.dispatchEvent(event);
-    console.log("Comlink stablished.");
   });
 
   //Event listner for incoming video call.
@@ -140,7 +139,6 @@
     dataConnection = peer.connect(theirPeerId);
     //recieves incomming messages
     dataConnection.on("open", () => {
-      console.log("Comlink stablished.");
       const event = new CustomEvent("peer-changed", {
         detail: theirPeerId,
       });
