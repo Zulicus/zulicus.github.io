@@ -69,18 +69,26 @@ class App extends React.Component {
     return (
       <Router>
         <div className="App">
-          <Header
-            getImages={this.getImages}
-            gallery={this.state.gallery}
-            showGallery={this.showGallery}
-          />
-          <Message empty={this.state.isEmpty} />
-          <Results state={this.state} />
-          <Gallery
-            gallery={this.state.gallery}
-            galleryToggle={this.state.galleryToggle}
-            closeGallery={this.closeGallery}
-            removeFromGallery={this.removeFromGallery}
+          <Route
+            exact
+            path="/"
+            render={(props) => (
+              <React.Fragment>
+                <Header
+                  getImages={this.getImages}
+                  gallery={this.state.gallery}
+                  showGallery={this.showGallery}
+                />
+                <Message empty={this.state.isEmpty} />
+                <Results state={this.state} />
+                <Gallery
+                  gallery={this.state.gallery}
+                  galleryToggle={this.state.galleryToggle}
+                  closeGallery={this.closeGallery}
+                  removeFromGallery={this.removeFromGallery}
+                />
+              </React.Fragment>
+            )}
           />
         </div>
       </Router>

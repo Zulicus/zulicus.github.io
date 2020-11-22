@@ -56,7 +56,7 @@ class App extends React.Component {
             <Header />
             <Route
               exact
-              path="/"
+              path="/Modul_4.2/uppgift/build/"
               render={(props) => (
                 <React.Fragment>
                   <AddTodo addTodo={this.addTodo} />
