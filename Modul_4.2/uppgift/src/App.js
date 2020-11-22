@@ -71,7 +71,7 @@ class App extends React.Component {
         <div className="App">
           <Route
             exact
-            path="/"
+            path="/Modul_4.2/uppgift/build/index.html"
             render={(props) => (
               <React.Fragment>
                 <Header
