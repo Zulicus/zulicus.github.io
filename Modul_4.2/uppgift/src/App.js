@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Layout/Header.js";
 import Results from "./components/Results.js";
 import Message from "./components/Message.js";
@@ -66,21 +67,23 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
-        <Header
-          getImages={this.getImages}
-          gallery={this.state.gallery}
-          showGallery={this.showGallery}
-        />
-        <Message empty={this.state.isEmpty} />
-        <Results state={this.state} />
-        <Gallery
-          gallery={this.state.gallery}
-          galleryToggle={this.state.galleryToggle}
-          closeGallery={this.closeGallery}
-          removeFromGallery={this.removeFromGallery}
-        />
-      </div>
+      <Router>
+        <div className="App">
+          <Header
+            getImages={this.getImages}
+            gallery={this.state.gallery}
+            showGallery={this.showGallery}
+          />
+          <Message empty={this.state.isEmpty} />
+          <Results state={this.state} />
+          <Gallery
+            gallery={this.state.gallery}
+            galleryToggle={this.state.galleryToggle}
+            closeGallery={this.closeGallery}
+            removeFromGallery={this.removeFromGallery}
+          />
+        </div>
+      </Router>
     );
   }
 }
